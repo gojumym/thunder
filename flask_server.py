@@ -15,7 +15,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 color_list = ['베이지색', '검정색', '갈색', '회색', '초록색', '파란색', '빨간색', '하얀색']
 cloth_list = ['긴팔티셔츠', '셔츠', '맨투맨_후드', '면바지', '반바지', '반팔', '블라우스', 
  '스커트', '원피스', '청바지', '카디건', '트레이닝복']
-
+ 
 # web 렌더링
 @app.route("/", methods=['GET'])
 def index() :
