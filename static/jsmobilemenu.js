@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.querySelector(".mobile-menu").addEventListener("click", function(e){
         if ( document.querySelector('.menuwrap').classList.contains('on') ){
             //메뉴닫힘
-            document.querySelector('.menuwrap').classList.remove('on');
+            document.querySelector('.menuwrap').classList.remove('on'); 
             document.querySelector('.mobile-menu i').classList.remove('fa-times')
             document.querySelector('.mobile-menu i').classList.add('fa-bars');
 
